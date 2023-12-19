@@ -27,7 +27,7 @@ def most_freq(string, k, d):
         pattern_dict[pattern] = sum(1 for i in range(len(string) - k + 1) if hamming(pattern, string[i:i + k]) <= d)
         pattern_dict[pattern] += sum(1 for i in range(len(reverse) - k + 1) if hamming(pattern, reverse[i:i + k]) <= d)
 
-    ### find patterns with maximum occurance (두개 이상일 수도 있음)
+    ### find patterns with maximum occurance
     max_count = max(pattern_dict.values())
     max_pattern = [k for k,v in pattern_dict.items() if v == max_count]
 
