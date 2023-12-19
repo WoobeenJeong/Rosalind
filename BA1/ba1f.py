@@ -1,7 +1,5 @@
 
-
 ### position minimize the skew
-
 
 #########################################
 ### in Brute Force
