@@ -6,7 +6,7 @@
 
 ### [BA1.]
 <details>
-##<summary>Hamming distance</summary>##
+<summary>Hamming distance</summary>
 <div markdown="1">
 
 The minimum number of substitutions(Errors) required to change one string into the other.
