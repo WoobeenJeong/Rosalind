@@ -1,5 +1,4 @@
 
-
 ### find all occurences of a pattern
 
 def brute_force(pattern, string):
@@ -8,7 +7,6 @@ def brute_force(pattern, string):
         if string[i:i+len(pattern)] == pattern:
             positions.append(i)
     return positions
-
 
 with open ("bioinfo2/rosalind_ba1d.txt", "r") as files:
     lines = files.readlines()
