@@ -4,7 +4,7 @@
 
 ## Textbook Track 
 
-### [BA1.]
+### [BA1]
 <details>
 <summary>Hamming distance</summary>
 <div markdown="1">
