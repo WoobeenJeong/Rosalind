@@ -14,4 +14,3 @@ with open ('bioinfo2/rosalind_ba1c.txt','r') as input:
     seq = input.read().replace('\n','')
     
 print(reverse_complement(seq))
-
