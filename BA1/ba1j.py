@@ -34,7 +34,6 @@ def most_freq(string, k, d):
     return max_pattern
 
 with open("bioinfo2/rosalind_ba1j.txt","r") as f:
-    
     string = f.readline().strip()
     k,d = f.readline().strip().split(" ")
     k,d = int(k),int(d)
