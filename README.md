@@ -2,7 +2,7 @@
 
 - Textbook Track
 
-## ----- Textbook Track -----
+## Textbook Track 
 
 ### [BA1.]
 - Hamming distance
