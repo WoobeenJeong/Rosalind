@@ -1,5 +1,4 @@
 
-
 ### find most freq kmer with mismatch
 
 def hamming(string01, string02):
