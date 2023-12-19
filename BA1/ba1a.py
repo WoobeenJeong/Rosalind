@@ -1,4 +1,4 @@
-
+ 
 
 with open("bioinfo2/rosalind_ba1a.txt", "r") as file:
     Text = file.readline().strip()
