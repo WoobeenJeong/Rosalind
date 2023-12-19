@@ -26,6 +26,7 @@ Systematically checking all possible candidates for whether or not each candidat
    </p>
    
 sliding window : n(string) - m(pattern) + 1
+
 complexity : O(mn)
 
 </div>
