@@ -3,7 +3,7 @@
 
 def brute_force(pattern, string):
     positions = []
-    for i in range(len(string) - len(pattern) + 1):
+    for i in range(len(string) - len(pattern) + 1):    ## 범위 중요
         if string[i:i+len(pattern)] == pattern:
             positions.append(i)
     return positions
