@@ -1,5 +1,4 @@
 
-
 ### Appeoximate pattern matching
 ### mismatch의 개수가 hamming distance보다 작거나 같게
 ### hamming dist 함수는 앞선 ba1g.py에서 사용한 것과 동일하게 사용
