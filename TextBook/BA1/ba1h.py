@@ -1,4 +1,3 @@
-
 ### Appeoximate pattern matching
 ### mismatch의 개수가 hamming distance보다 작거나 같게
 ### hamming dist 함수는 앞선 ba1g.py에서 사용한 것과 동일하게 사용
@@ -17,7 +16,6 @@ def hamming(string01, string02):
 def approx_match(pattern, text, mismatch):
 
     match_list = []
-  
     for i in range(len(text)-len(pattern)+1):
         if hamming(pattern, text[i:i+len(pattern)]) <= mismatch:
             match_list.append(i)
