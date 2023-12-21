@@ -1,4 +1,3 @@
-
 ### making reverse complement of a DNA sequence
 
 def reverse_complement(seq):
