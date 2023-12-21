@@ -1,4 +1,3 @@
-
 ### find most freq kmer with mismatch and reverse
 ### ba1c.py + ba1i.py
 ### shortest version code
@@ -13,7 +12,6 @@ def hamming(string01, string02):
     return sum(s1 != s2 for s1, s2 in zip(string01, string02))
 
 def most_freq(string, k, d):
-    
     reverse = reverse_complement(string)
     
     ### all possible patterns
