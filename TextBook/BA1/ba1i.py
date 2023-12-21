@@ -1,4 +1,3 @@
-
 ### find most freq kmer with mismatch
 
 def hamming(string01, string02):
@@ -41,7 +40,6 @@ def most_freq(string, k, d):
     #     for i in range(len(string) - k + 1):
     #         pattern2 = string[i:i + k]
     #         count += 1
-            
     #         if hamming(pattern, pattern2) <= d:
     #             pattern_dict[pattern] += 1
     #########################################
