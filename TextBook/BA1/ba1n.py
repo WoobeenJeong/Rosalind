@@ -1,6 +1,6 @@
-
 ### generate d-neighbors of a string/pattern
-### 여기서는 앞의 두 방법 말고, 세번째 방법을 사용
+### 여기서는 앞의 여러 방법들 시도하고
+### 최종적으로는 방법 4를 사용 (문제가 원하는 답의 순서에 집중)
 
 ################################################
 ### 방법 1 소거법 elimination
@@ -56,7 +56,7 @@ def d_neighbor02(pattern, d):
 
 ################################################
 ### 방법 3 : 반복문으로 작성 + 핵심은 중복을 set()으로 안 잡아서 순서를 가져오기
-### 이것도 순서를 제대로 가져오지 못함 + 더 복잡하게 변조 필요
+### 이것도 순서를 제대로 가져오지 못함 + 반복문 쓰되 변조 필요
 
 def d_neighbor03(pattern, d):
     nt = ['A', 'C', 'G', 'T']
@@ -104,6 +104,8 @@ def d_mutate(pattern, d):
                             if hamming(pattern, new_pattern) == d:
                                 neighbor.append(new_pattern)
     return neighbor
+
+### 변조를 d, d-1, ..., 0 까지 역순(-1)으로 extend
 
 def d_neighbor04(pattern, d):
     result = []
