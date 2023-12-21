@@ -1,4 +1,3 @@
-
 def counting(Text, Pattern):
     count = 0
     for i in range(len(Text) - len(Pattern) + 1):
