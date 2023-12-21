@@ -1,10 +1,8 @@
-
 ### most frequent k-mer in a string
 
 def findpattern(string,kmer):
     
-    pattern_dict = {}       # for making dictionary that can check the repeated patterns
-    
+    pattern_dict = {}       # dictionary that can check the repeated patterns
     for i in range(len(string)-kmer+1):
         pattern = string[i:i+kmer]
         if pattern in pattern_dict:
