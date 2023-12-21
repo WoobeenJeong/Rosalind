@@ -1,8 +1,7 @@
-
 ### position minimize the skew
 
 #########################################
-### in Brute Force
+### 방법1. in Brute Force
 
 def skew_count(string):
     skew = 0
@@ -24,7 +23,7 @@ def min_index(string):                      # 이 부분을 따로 min(skew_list
     return min_index
 
 #########################################
-### in One Pass
+### 방법2. in One Pass
 
 def one_pass(string):
     skew = 0
