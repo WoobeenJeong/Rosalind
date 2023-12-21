@@ -1,9 +1,7 @@
-
 ### frequency array
 ### 이전에 ba1i ~ ba1j 에서 쓴 pattern dict랑 동일
 
 def kmer_freq(string,k):
-    
     nt = ["A","C","G","T"]
     patterns = [''.join(nt[(i//(4**j))%4] for j in range(k)) for i in range(4**k)]
     pattern_dict = {pattern: 0 for pattern in patterns}
@@ -19,7 +17,6 @@ def kmer_freq(string,k):
 
 
 with open("bioinfo2/rosalind_ba1k.txt","r") as f:
-    
     string = f.readline().strip()
     k = int(f.readline().strip())
     
