@@ -1,4 +1,3 @@
-
 ### (L,t)-clump in string
 ### L = length of loci we are looking for
 ### t = times of occurence
