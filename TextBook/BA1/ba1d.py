@@ -1,4 +1,3 @@
-
 ### find all occurences of a pattern
 
 def brute_force(pattern, string):
