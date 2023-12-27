@@ -122,7 +122,7 @@ weak : indel error, naive DBG spend lot of times
 
 = **traceable path**
 
-= manhattan tour problem
+= manhattan tour problem, traveling salesman problem(TSP)
 
 = NP complete problem -> as Brute Force
 
