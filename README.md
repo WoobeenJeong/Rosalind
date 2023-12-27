@@ -82,7 +82,7 @@ E,u for edges = {(1,2),(2,3)}
 <summary>De Bruijn Graph (DBG) </summary>
 <div markdown="1">
 
-n-dimensional m-symbol "directed graph$((1,2)!=(2,1))$"
+n-dimensional m-symbol #directed# graph$((1,2)!=(2,1))$
 
 - $m^n$ vertices(nodes)
 - each nodes has $m$ income and outcome edges
