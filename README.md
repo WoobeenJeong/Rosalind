@@ -84,8 +84,8 @@ E,u for edges = {(1,2),(2,3)}
 
 n-dimensional m-symbol "directed graph((1,2)!=(2,1))"
 
-- "$m^n$" vertices(nodes)
-- each nodes has "m" income and outcome edges
+- $m^n$ vertices(nodes)
+- each nodes has $m$ income and outcome edges
 - all possible length-n sequences allows multiple m-symbols appear
 - each DBG follows Eulerian or Hamiltonian cycle. 
    <p align="left">
