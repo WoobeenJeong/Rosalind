@@ -105,7 +105,7 @@ weak : indel error, naive DBG spend lot of times
 </details>
 
 <details>
-<summary>Eulerian/Hamiltonian($\subset$NPC) cycle </summary>
+<summary>Eulerian/Hamiltonian cycle </summary>
 <div markdown="1">
 = cycle, circuit (start=end) / path, trail(start$\neq$end) / distance(as scored)
 
