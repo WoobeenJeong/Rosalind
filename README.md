@@ -19,6 +19,7 @@ The minimum number of substitutions(Errors) required to change one string into t
 <div markdown="1">
 
 (= exhaustive search, generate and test)
+(= nondeterministic Turing machines)
 
 Systematically checking all possible candidates for whether or not each candidate satisfies the problem's statement.
    <p align="left">
@@ -69,11 +70,15 @@ def min_gc_skew(string):
 
 G=(V,E)
 
-$$ example : 1-2-3 $$
+example : 1-2-3
 
 V,v for nodes(vertices(from vertex)) = {1,2,3}
 
 E,u for edges = {(1,2),(2,3)}
+
+- Hamming graph
+- De bruijn graph
+- Kautz graph
 
 </div>
 </details>
@@ -95,6 +100,46 @@ n-dimensional m-symbol **directed** graph $((1,2)\neq(2,1))$
    
 strong : speedy
 weak : indel error, naive DBG spend lot of times
+
+</div>
+</details>
+
+<details>
+<summary>Eulerian/Hamiltonian($\subset$NPC) cycle </summary>
+<div markdown="1">
+= cycle, circuit (start=end) / path, trail(start$\neq$end) / distance(as scored)
+
+**Eulerian** : **finite** graph that visits every edge exactly once. (can be found in both "directed/undirected")
+
+= Konigsberg's bridge problem
+
+= euler's theorem 
+
+= all nodes have an even(2,4,6...) degree(edge numbers) 
+
+
+**Hamiltonian** : graph that visits each nodes exactly once. (can be found in both "directed/undirected")
+
+= **traceable path**
+
+= manhattan tour problem
+
+= NP complete problem -> as Brute Force
+
+</div>
+</details>
+
+<details>
+<summary>NP complete(NPC) </summary>
+<div markdown="1">
+
+nondeterministic polynomial-time complete
+
+(nondeterministic Turing machines(NTM) = Brute force search algorithm)
+
+(polynomial-time -> deterministic algorithm / linear programming)
+
+$2^{O(\log \ n)} = poly(n)$
 
 </div>
 </details>
