@@ -133,16 +133,22 @@ ___
 </details>
 
 <details>
-<summary>NP complete(NPC) </summary>
+<summary>NP complete(NPC), NP hard problem </summary>
 <div markdown="1">
 
 nondeterministic polynomial-time complete
+
+___
 
 (nondeterministic Turing machines(NTM) = Brute force search algorithm)
 
 (polynomial-time -> deterministic algorithm / linear programming)
 
 $2^{O(\log \ n)} = poly(n)$
+
+-> possible (yes/no = P/NP) for n times
+
+$ Let L as text, \forall L' \in NP and L' {\leq}_p L, then LP hard $
 
 </div>
 </details>
