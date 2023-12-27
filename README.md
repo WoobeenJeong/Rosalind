@@ -87,7 +87,8 @@ n-dimensional m-symbol **directed** graph $((1,2)\neq(2,1))$
 - $m^n$ vertices(nodes)
 - each nodes has $m$ income and outcome edges
 - all possible length-n sequences allows multiple m-symbols appear
-- each DBG follows Eulerian or Hamiltonian cycle. 
+- each DBG follows Eulerian or Hamiltonian cycle.
+
    <p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DeBruijn-as-line-digraph.svg/600px-DeBruijn-as-line-digraph.svg.png" alt="image" width="auto" height="100">
    </p>
