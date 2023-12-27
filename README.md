@@ -148,7 +148,7 @@ $2^{O(\log \ n)} = poly(n)$
 
 -> possible (yes/no = P/NP) for n times
 
-$ Let L as text, \forall L' \in NP and L' {\leq}_p L, then LP hard $
+$Let L as text, \forall L' \in NP and L' {\leq}_p L, then LP hard$
 
 </div>
 </details>
