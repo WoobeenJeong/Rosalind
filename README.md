@@ -15,6 +15,24 @@ The minimum number of substitutions(Errors) required to change one string into t
 </details>
 
 <details>
+<summary>Brute Force algorithm</summary>
+<div markdown="1">
+
+(= exhaustive search, generate and test)
+
+Systematically checking all possible candidates for whether or not each candidate satisfies the problem's statement.
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/d1047568-3dc4-4223-9bc3-309ac5c9d51f" alt="image" width="auto" height="100">
+   </p>
+   
+sliding window : n(string) - m(pattern) + 1
+
+complexity : O(mn)
+
+</div>
+</details>
+
+<details>
 <summary>GC skew</summary>
 <div markdown="1">
 
@@ -45,21 +63,37 @@ def min_gc_skew(string):
 
 
 ### [BA3]
-
 <details>
-<summary>Brute Force algorithm</summary>
+<summary>Graph </summary>
 <div markdown="1">
 
-(= exhaustive search, generate and test)
+Graph G=(V,E)
 
-Systematically checking all possible candidates for whether or not each candidate satisfies the problem's statement.
+example : 1-2-3
+
+V,v for nodes(vertices(from vertex)) = {1,2,3}
+
+E,u for edges = {(1,2),(2,3)}
+
+</div>
+</details>
+
+<details>
+<summary>De Bruijn Graph (DBG) </summary>
+<div markdown="1">
+
+n-dimensional m-symbol "directed graph((1,2)!=(2,1))"
+
+- "m^n" vertices(nodes)
+- each nodes has "m" income and outcome edges
+- all possible length-n sequences allows multiple m-symbols appear
+- each DBG follows Eulerian or Hamiltonian cycle. 
    <p align="left">
-  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/d1047568-3dc4-4223-9bc3-309ac5c9d51f" alt="image" width="auto" height="100">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DeBruijn-as-line-digraph.svg/600px-DeBruijn-as-line-digraph.svg.png" alt="image" width="auto" height="100">
    </p>
    
-sliding window : n(string) - m(pattern) + 1
-
-complexity : O(mn)
+strong : speedy
+weak : indel error, naive DBG spend lot of times
 
 </div>
 </details>
