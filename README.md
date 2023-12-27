@@ -107,7 +107,9 @@ weak : indel error, naive DBG spend lot of times
 <details>
 <summary>Eulerian/Hamiltonian cycle </summary>
 <div markdown="1">
-= cycle, circuit (start=end) / path, trail(start$\neq$end) / distance(as scored)
+   
+= cycle, circuit (start=end) / path, trail(start≠end) / distance(as scored)
+___
 
 **Eulerian** : **finite** graph that visits every edge exactly once. (can be found in both "directed/undirected")
 
@@ -117,6 +119,7 @@ weak : indel error, naive DBG spend lot of times
 
 = all nodes have an even(2,4,6...) degree(edge numbers) 
 
+___
 
 **Hamiltonian** : graph that visits each nodes exactly once. (can be found in both "directed/undirected")
 
