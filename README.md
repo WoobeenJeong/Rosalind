@@ -67,9 +67,9 @@ def min_gc_skew(string):
 <summary>Graph </summary>
 <div markdown="1">
 
-Graph G=(V,E)
+G=(V,E)
 
-example : 1-2-3
+$$ example : 1-2-3 $$
 
 V,v for nodes(vertices(from vertex)) = {1,2,3}
 
@@ -84,7 +84,7 @@ E,u for edges = {(1,2),(2,3)}
 
 n-dimensional m-symbol "directed graph((1,2)!=(2,1))"
 
-- "m^n" vertices(nodes)
+- "$m^n$" vertices(nodes)
 - each nodes has "m" income and outcome edges
 - all possible length-n sequences allows multiple m-symbols appear
 - each DBG follows Eulerian or Hamiltonian cycle. 
