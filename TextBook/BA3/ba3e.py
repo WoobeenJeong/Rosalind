@@ -52,10 +52,8 @@ def DeBruijn_from_overlaps(patterns,windows):
     
     return debruijn_dict 
 
-
 ### 위 과정을 더 쉽게 하자면 다음과 같이 할 수 있음
 ### 놀랍게도 결과는 동일하지만, 원리를 이해하자.
-
 
 def DeBruijn(patterns, window):
     
@@ -92,7 +90,6 @@ with open ('bioinfo2/rosalind_ba3e.txt', 'r') as f:
 # print(DeBruijn_from_overlaps(patterns, window))
 ### 2번 결과 (더 쉬운 방법)
 # print(DeBruijn(patterns, window))
-
 
 ### 결과값 정렬
 result = DeBruijn(patterns, window)
