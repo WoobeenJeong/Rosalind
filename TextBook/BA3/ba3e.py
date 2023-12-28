@@ -1,6 +1,6 @@
 ### kmers patterns into k-1 mers DeBruijn graph
 ### k-1 prefix suffix 통해서 원래 서열 (circuit 혹은 path) 찾기
-### 주어진 pseudo code
+### 주어진 pseudo code 는 아래와 같음 :
 ### DeBruijn(Patterns)
 ###     kmer pattern사이의 prefix, suffix를 edge로 활용 = CompositionalGraph(kmers)라는 함수로 구현
 ###     동일 label을 갖는 노드를 이어붙여, DeBruijn graph 생성
