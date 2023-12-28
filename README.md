@@ -164,10 +164,9 @@ ___
 <div markdown="1">
 
    <p align="left">
-  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/09223752-ec87-4ce5-8e69-ae5fa425d917" alt="image" width="auto" height="100">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/8f57c10f-14e9-42d6-9cee-6d918e3a0d19" alt="image" width="auto" height="100">
    </p>
 
 </div>
 </details>
-
 
