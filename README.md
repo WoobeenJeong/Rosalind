@@ -154,3 +154,22 @@ $Let \ L \ as \ text, \ \forall L' \in NP \ and \ L' {\leq}_p L, \ then \ LP-har
 
 </div>
 </details>
+
+___
+
+## Hint
+
+<details>
+<summary> ba3e </summary>
+<div markdown="1">
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/04009b62-d94d-4190-81e7-53880fbb0170" alt="image" width="auto" height="100">
+   </p>
+
+</div>
+</details>
+
+
+
+
