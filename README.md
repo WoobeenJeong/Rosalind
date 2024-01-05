@@ -164,6 +164,22 @@ $Let \ L \ as \ text, \ \forall L' \in NP \ and \ L' {\leq}_p L, \ then \ LP-har
 </div>
 </details>
 
+### [BA5]
+<details>
+<summary>Dynamic Programing sub-algorithms </summary>
+<div markdown="1">
+
+1. Fibonacci Sequence
+2. Change making Problem
+3. Longest Increasing Subsequence, LIS
+4. Matrix Chain Multiplication
+5. 0/1 Knapsack Problem
+6. Shortest Path Problem
+7. Subset Sum Problem
+
+</div>
+</details>
+
 
 ___
 
