@@ -1,6 +1,5 @@
 # Manhattan tourist problem = 투어방문에 최고 많은 곳을 방문하는 문제
 # 투어 방문 = edge값 가중 +1 / (0,0)에서 (n,m)까지 가는 최고 가중치 거리
-
 # 이는 dynamic programming의 기초로, 이미 input의 가중치가 가장 간단한 1로 작성된 결과를 가지고 있으므로 최대값만 계산하면 됨
 # mini dynamic programming으로 지칭!
 
