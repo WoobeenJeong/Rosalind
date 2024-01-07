@@ -22,8 +22,8 @@ def eulerian(graph_dict):
                 visited_value[current] = True
             else:
                 break
-            
-    return cycle
+
+        return cycle
 
 #############################################
 ### 위 코드는 순환하는 그래프를 만들지 못함
