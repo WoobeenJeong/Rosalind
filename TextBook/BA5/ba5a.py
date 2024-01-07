@@ -1,5 +1,4 @@
 # dynamic programming의 개념의 밑바탕이 되는 문제 : "minimum coin change" 문제
-
 # 만약 (a,b,c)원의 동전이 존재하고 n원을 만들어야 한다면
 # 최소 동전을 구하는 식 F(n) = min(F(n-a), F(n-b), F(n-c)) + 1 이 성립
 # 단, 여기서 그 어떤 (a,b,c)로도 n을 만들 수 없으면 F(n) = -1 처리
