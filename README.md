@@ -160,7 +160,7 @@ $Let \ L \ as \ text, \ \forall L' \in NP \ and \ L' {\leq}_p L, \ then \ LP-har
 <div markdown="1">
 
 = algorithm for finding Eulerian path
-- E = # of edges
+  (E = # of edges)
   
 - Fleury : O(E^2)
   1. start node = #E:odd or random(if all #E same) 
