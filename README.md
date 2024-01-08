@@ -212,7 +212,7 @@ def dfs(node):
 
 ### [BA5]
 <details>
-<summary>Dynamic Programing sub-algorithms </summary>
+<summary> mini Dynamic Programing (DP) problems </summary>
 <div markdown="1">
 
 1. Fibonacci Sequence
