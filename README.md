@@ -159,7 +159,17 @@ $Let \ L \ as \ text, \ \forall L' \in NP \ and \ L' {\leq}_p L, \ then \ LP-har
 <summary> Fleury/Hierholzer algorithm </summary>
 <div markdown="1">
 
+= algorithm for finding Eulerian path
+- E = # of edges
+  
+- Fleury : O(E^2)
+  1. start node = #E:odd or random(if all #E same) 
+  2. no brige for edge
+  3. choose -> erase edge
 
+- Hierholzer : O(E)
+  1. start node = random
+  2. choose -> erase edge
 
 </div>
 </details>
