@@ -164,6 +164,42 @@ $Let \ L \ as \ text, \ \forall L' \in NP \ and \ L' {\leq}_p L, \ then \ LP-har
 </div>
 </details>
 
+<details>
+<summary> Depth first search (DFS) </summary>
+<div markdown="1">
+
+= find path(cycle) of tree, DAG, maze
+
+
+DFS algorithm : O(|V|+|E|)
+
+- V = # of nodes
+
+- E = # of edges
+
+
+```
+DFS(node,Graph):
+    if node in Graph:
+    for all directed edges from v(node) to w(neighbor) that are in G.adjacentEdges(v) do
+        if vertex w is not labeled as discovered then
+            recursively call DFS(G, w)
+
+### [Example] ###
+
+def dfs(node):
+    if node in graph:
+        for neighbor in graph[node]:
+            if (node, neighbor) not in visited_edges:
+                visited_edges.add((node, neighbor))
+                dfs(neighbor)
+    path.append(node)
+```
+
+</div>
+</details>
+
+
 ### [BA5]
 <details>
 <summary>Dynamic Programing sub-algorithms </summary>
