@@ -242,3 +242,37 @@ ___
 </div>
 </details>
 
+<details>
+<summary> ba3h </summary>
+<div markdown="1">
+
+- ba3e + ba3g (pattern -> DBG -> DAG)
+
+```
+def overlap(patterns):
+   ### for max length overlapping { prefix : [suffix] } by using count_overlap
+   return DBG
+   
+def count_overlap(prefix,suffix)
+   return overlap_length
+
+def find_end(DBG):
+   return start_node
+
+def eulerian(DBG):
+   def dfs_stack(start_node):
+      stack.append(start_node)
+      while stack:
+         path.append
+   dfs_stack(start_node)
+   return path
+
+def stringmake(path)
+   ### result += every single suffix[overlap_length:] by using count_overlap
+   return
+
+```
+
+</div>
+</details>
+
