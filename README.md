@@ -265,7 +265,7 @@ def eulerian(DBG):
       while stack:
          path.append
    dfs_stack(start_node)
-   return path
+   return path[::-1]
 
 def stringmake(path)
    ### result += every single suffix[overlap_length:] by using count_overlap
