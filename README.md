@@ -62,6 +62,19 @@ def min_gc_skew(string):
 
 ### [BA2]
 
+<details>
+<summary>Greedy search</summary>
+<div markdown="1">
+
+The problem-solving heuristic algorithm of making the locally optimal choice at each stage.
+
+- limitations : NOT an optimal solution, local optimization
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/dc4f095a-9384-4ef7-bbbc-8a4f93764c4b" alt="image" width="auto" height="100">
+   </p>
+
+</div>
+</details>
 
 ### [BA3]
 <details>
@@ -230,6 +243,17 @@ def dfs(node):
 ___
 
 ## Hint
+
+<details>
+<summary> ba2d </summary>
+<div markdown="1">
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/0583e5ae-0ddc-45a0-874c-79588cb7b196" alt="image" width="auto" height="100">
+   </p>
+
+</div>
+</details>
 
 <details>
 <summary> ba3e </summary>
