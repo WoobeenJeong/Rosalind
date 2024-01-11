@@ -1,6 +1,6 @@
 ### Greedy search with pseudocounts
 ### 이전 ba2d.py에서 pseudocounts를 추가한 함수
-### pseudocounts가 어디에 추가되는지 확인할 것
+### pseudocounts가 어디에 추가되는지 확인! -> 더 효과적 방법 존재?
 
 def make_profile(motifs, pseudo):
     k = len(motifs[0])
