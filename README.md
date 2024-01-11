@@ -68,6 +68,11 @@ def min_gc_skew(string):
 
 The problem-solving heuristic algorithm of making the locally optimal choice at each stage.
 
+: greedy choice -> feasibility check -> update solution (local) -> repeat -> optimality check (global)
+
+- same as DP : "heuristic, calculate all possible"
+- differ from DP : "does not reconsider the choice, previous decision doesn't affect after works"
+
 - limitations : NOT an optimal solution, local optimization
    <p align="left">
   <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/dc4f095a-9384-4ef7-bbbc-8a4f93764c4b" alt="image" width="auto" height="100">
