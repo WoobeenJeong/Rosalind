@@ -81,6 +81,23 @@ The problem-solving heuristic algorithm of making the locally optimal choice at 
 </div>
 </details>
 
+<details>
+<summary>Pseudo count (Laplacian smoothing)</summary>
+<div markdown="1">
+= Laplace smoothing, Additive smoothing = Lidstone smoothing
+
+A technique used to smooth count data, eliminating issues caused by certain values having 0 occurrences.
+
+("pseudocount" α > 0 is a smoothing parameter. α = 0 corresponds to no smoothing.)
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/aa61935f-301e-46b7-8828-70bb053e09e1" alt="image" width="auto" height="100">
+   </p>
+
+
+</div>
+</details>
+
 ### [BA3]
 <details>
 <summary>Graph </summary>
