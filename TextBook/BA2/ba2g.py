@@ -1,19 +1,14 @@
-### seed값이 12여야 rosalind에서 원하는 값이 나오는 것으로 생각됨 ###
+### seed값이 12여야 rosalind에서 원하는 값이 나오는 것으로 생각됨
+### 기존 코드를 활용하되 initial값과 iteration에 주의해서 작성
+### seed = 20 / start motif = 20 / iteration = 2000 기준
 
 import random
 random.seed(12)
-
-with open("bioinfo2/rosalind_ba2g.txt", "r") as f:
-    k, t, N = map(int, f.readline().split())
-    Dna = [line.strip() for line in f.readlines()]
-
-##################################################################
 
 def most(text, k, profile):                 # 이전 most함수 그대로 활용, 가장 probability높은 motif를 배출
     n = len(text)
     max_prob = -1
     common = ""
-
     nt = {'A': 0, 'C': 1, 'G': 2, 'T': 3}
 
     for i in range(n - k + 1):
@@ -28,7 +23,6 @@ def most(text, k, profile):                 # 이전 most함수 그대로 활용
             common = kmer
 
     return common
-
 
 def Score(motifs):                          # 이전 score함수 그대로 활용, 각자리마다 score 누산해서 합산score를 motif별로 작성
         common = ''
@@ -47,9 +41,7 @@ def Score(motifs):                          # 이전 score함수 그대로 활�
         
         return score
 
-
 ### Pseudo count를 포함하는 Profile code의 경우 다른 방식으로 작성 ###
-
 ### ba2f.py 에서는 Profile을 dict = {A:, C:, G:, T:}꼴로 3D로 작성했지만
 ### ba2g.py 에서는 Profile을 list (2D)로 작성해서, 
 
@@ -82,14 +74,20 @@ def Gibbs(Dna, k, t, N):
     
     return random_motif
 
+##################################################################
 
+with open("bioinfo2/rosalind_ba2g.txt", "r") as f:
+    k, t, N = map(int, f.readline().split())
+    Dna = [line.strip() for line in f.readlines()]
+
+##################################################################
 
 ### Parameter 수정
 
 best_motifs = None                          # 위에 돌린 값 초기화
 best_score = float('inf')                   # Gibbs 돌릴떄 score비교 시작값은 무조건 큰값 (낮은거 찾아야 하니)
 
-N = 1000                                   # 알고리즘 반복 횟수 설정 if you want
+N = 2000                                   # 알고리즘 반복 횟수 설정 if you want
 
 for repeat in range(20):                    # 초기 target 20번 생성
     
