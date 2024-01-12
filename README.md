@@ -110,6 +110,18 @@ A technique used to smooth count data, eliminating issues caused by certain valu
 </div>
 </details>
 
+<details>
+<summary>Pseudo count (Laplacian smoothing)</summary>
+<div markdown="1">
+= Commonly found kmer motif(pattern) from all strings(DNAs,...) with the least distance.
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/703ed468-6c44-4cad-9f87-25959bf3dd05" alt="image" width="auto" height="200">
+   </p>
+
+</div>
+</details>
+
 ### [BA3]
 <details>
 <summary>Graph </summary>
