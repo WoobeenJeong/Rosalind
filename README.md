@@ -111,7 +111,7 @@ A technique used to smooth count data, eliminating issues caused by certain valu
 </details>
 
 <details>
-<summary>Pseudo count (Laplacian smoothing)</summary>
+<summary>Median string</summary>
 <div markdown="1">
 = Commonly found kmer motif(pattern) from all strings(DNAs,...) with the least distance.
 
