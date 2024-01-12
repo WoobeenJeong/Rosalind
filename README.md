@@ -82,6 +82,18 @@ The problem-solving heuristic algorithm of making the locally optimal choice at 
 </details>
 
 <details>
+<summary>Gibbs sampler</summary>
+<div markdown="1">
+= Markov Chain Monte Carlo(MCMC) based algorithm by Bayesian inference, 
+   
+   that randomly starts -> determine and restart from initial as EM algorithm process
+
+-> more efficient than greedy search but slow
+
+</div>
+</details>
+
+<details>
 <summary>Pseudo count (Laplacian smoothing)</summary>
 <div markdown="1">
 = Laplace smoothing, Additive smoothing = Lidstone smoothing
