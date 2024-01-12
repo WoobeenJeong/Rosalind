@@ -13,10 +13,8 @@ for line in lines:
 ### 가장 probability 높은 motif 찾기 : profile input 필요 ###
     
 def most(profile, Dna, k):
-
     motifs = []                                 # 이전 코드와 달라진 점은, most를 바로 출력한 것과 달리 list의 형태로 가능한 motif 모두 출력
-    
-    for sequence in Dna:                        # 여기서 부터는 모든 과정이 Num10, 11 과제에서 작성한 내용과 동일
+    for sequence in Dna:                        # 여기서 부터는 모든 과정이 ba2d,e와 유사
         most = ''
         max = 0
         
@@ -38,7 +36,6 @@ def most(profile, Dna, k):
 
 def Profile(motifs):
     k = len(motifs[0])
-    
     profile = {'A': [1] * k, 'C': [1] * k, 'G': [1] * k, 'T': [1] * k}      # probability 저장 할 dictionary 만들기
     t = len(motifs) + 4                                                     # 이때 [0]이 아닌 [1]을 넣어서, 그리고 +4로 시작해서 pseudo count
 
