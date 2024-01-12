@@ -1,5 +1,5 @@
-
-## distance between pattern and string
+### distance between pattern and string
+### Median string 문제로, 한마디로 모든 strings에 common kmer pattern을 찾을 때 필요
 
 import numpy as np
 
@@ -11,7 +11,6 @@ def hamming(pattern1, pattern2):
             total += 1
 
     return total
-
 
 def sum_hamming(pattern, string):
     k = len(pattern)
@@ -26,7 +25,8 @@ def sum_hamming(pattern, string):
         # print(hamming_distance)
     
     return distance
-    
+
+###################################################
 
 with open('bioinfo2/rosalind_ba2h.txt') as input:
     all = input.readlines()
