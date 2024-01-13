@@ -285,7 +285,27 @@ def dfs(node):
 </div>
 </details>
 
+<details>
+<summary> Needleman-Wunch algorithm </summary>
+<div markdown="1">
 
+= Global alignment
+
+!!!!!!!
+
+</div>
+</details>
+
+<details>
+<summary> BLOSUM, PAM </summary>
+<div markdown="1">
+
+= 
+
+!!!!!!!
+
+</div>
+</details>
 ___
 
 ## Hint
