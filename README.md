@@ -291,7 +291,17 @@ def dfs(node):
 
 = Global alignment
 
-!!!!!!!
+$H_{k,l} =0$
+
+$(1 < k \leq i < n, \ 1 < l \leq j < m)$
+
+$H(x)=$
+
+$H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
+
+$max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
+
+$max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
 
 </div>
 </details>
@@ -304,9 +314,17 @@ def dfs(node):
 
 $H_{k,0} = H_{0,l} =0$
 
-$(1 < k < i < n, \ 1 < l < j < m)$
+$(1 < k \leq i < n, \ 1 < l \leq j < m)$
 
-$H(x)=H_{i-1,j-1} + s(a,b) \\  max_{k \geq 1} H_{i-k,j} - \sigma_k} \\ max_{l \geq 1} H_{i,j-l} - \sigma_l} \\0$
+$H(x)=$
+
+$H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
+
+$max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
+
+$max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
+
+$0$
 
 </div>
 </details>
@@ -315,9 +333,23 @@ $H(x)=H_{i-1,j-1} + s(a,b) \\  max_{k \geq 1} H_{i-k,j} - \sigma_k} \\ max_{l \g
 <summary> BLOSUM, PAM </summary>
 <div markdown="1">
 
-= 
 
-!!!!!!!
+BLOSUM = BLOcks SUbstitution Matrix
+      
+      -> The matrix built from blocks with less than r% of similarity
+
+PAM = Point Accepted Mutation
+
+      -> Relating the number of mutated amino acids per 100 A.A
+
+
+|  BLOSUM  |    PAM   |
+|----------|----------|
+| BLOSUM90 |  PAM100  |
+| BLOSUM89 |  PAM120  |
+| BLOSUM62 |  PAM160  |
+| BLOSUM52 |  PAM200  |
+| BLOSUM45 |  PAM250  |
 
 </div>
 </details>
