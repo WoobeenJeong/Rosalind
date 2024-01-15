@@ -305,12 +305,12 @@ def dfs(node):
 $H_{k,0} = H_{0,l} =0$
 $(1 < k < i < n, \ 1 < l < j < m)$
 
-$H(x) = \begin{cases}
+$H(x) = 
   H_{i-1,j-1} + s(a,b) \\
   max_{k \geq 1} H_{i-k,j} - \sigma_k} \\
   max_{l \geq 1} H_{i,j-l} - \sigma_l} \\
   0
-\end{cases}$
+$
 
 </div>
 </details>
