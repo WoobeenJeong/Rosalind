@@ -9,7 +9,9 @@
 <summary>Hamming distance</summary>
 <div markdown="1">
 
-The minimum number of substitutions(Errors) required to change one string into the other.
+The minimum number of **substitutions(Errors)** required to change one string into the other.
+
+--> check [BA5] Edit distance (= Levenshtein distance, Wagner–Fischer algorithm)
 
 </div>
 </details>
@@ -286,6 +288,23 @@ def dfs(node):
 </details>
 
 <details>
+<summary> Wagner–Fischer algorithm </summary>
+<div markdown="1">
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/7b0ed8ce-f0e6-44da-b239-32eaeb4f7b12" alt="image" width="auto" height="100">
+   </p>
+   
+= Edit distance
+
+= Levenshtein distance
+
+The minimum number of **single character edit(insertion, deletion, substitutions)** required to change one string into the other.
+
+</div>
+</details>
+
+<details>
 <summary> Needleman-Wunch algorithm </summary>
 <div markdown="1">
 
@@ -297,11 +316,11 @@ $(1 < k \leq i < n, \ 1 < l \leq j < m)$
 
 $H(x)=$
 
-$H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
+   - $H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
 
-$max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
+   - $max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
 
-$max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
+   - $max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
 
 </div>
 </details>
@@ -318,13 +337,13 @@ $(1 < k \leq i < n, \ 1 < l \leq j < m)$
 
 $H(x)=$
 
-$H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
+   - $H_{i-1,j-1} + s(a,b) \max_{k\geq 1} (H_{i-k,j} - \sigma_k)$
 
-$max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
+   - $max_{k\geq 1}(\{H_{i-k,j}-\sigma_k\})$
 
-$max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
+   - $max_{l\geq 1}(\{H_{i,j-l}-\sigma_l\})$
 
-$0$
+   - $0$
 
 </div>
 </details>
@@ -335,12 +354,12 @@ $0$
 
 
 BLOSUM = BLOcks SUbstitution Matrix
-      
-      -> The matrix built from blocks with less than r% of similarity
+
+         The matrix built from blocks with less than r% of similarity
 
 PAM = Point Accepted Mutation
 
-      -> Relating the number of mutated amino acids per 100 A.A
+      Relating the number of mutated amino acids per 100 A.A
 
 
 |  BLOSUM  |    PAM   |
