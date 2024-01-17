@@ -1,11 +1,11 @@
-## local align에서 global 맛 내기
-## 일단 문제 의도는, 긴 서열 v와 짧은서열 w가 있는데
-## global로 하면 v의 길이에 w를 맞추기만 해서 문제고
-## local로 하면 v를 w에 맞춤과 동시에 w도 v에 맞춰버림
+### local align에서 global 맛 내기
+### 일단 문제 의도는, 긴 서열 v와 짧은서열 w가 있는데
+### global로 하면 v의 길이에 w를 맞추기만 해서 문제고
+### local로 하면 v를 w에 맞춤과 동시에 w도 v에 맞춰버림
 
-## 즉, local인데 v에 일방적으로 w를 맞추고자 함 -> semi-global 유사
-## == global로 하되, 시작지점은 local처럼 찾기
-## mismatch, indel penatly는 +1, match는 -1 (만들어진 매트릭스 잘 보기!)
+### 즉, local인데 v에 "일방적"으로 w를 맞추고자 함 -> semi-global 유사
+### == global로 하되, 시작지점은 local처럼 찾기
+### mismatch, indel penatly는 +1, match는 -1 (만들어진 매트릭스 잘 보기!)
 
 import numpy as np
 
