@@ -372,6 +372,35 @@ PAM = Point Accepted Mutation
 
 </div>
 </details>
+
+<details>
+<summary> Modified alignments </summary>
+<div markdown="1">
+
+- Semi-Global alignment:
+
+      AAAAABBBBBCCCCCD
+
+         AABB---CC---D
+
+- Fitting alignment:
+
+      AAAAABBBBBCCCCC
+  
+             BB-CC
+  
+- Overlap alignment:
+
+       AAABBBCCC
+  
+           BB-CCDD
+  
+- Affine gap alignment:
+- Multiple Sequence alignment (MSA):
+
+</div>
+</details>
+
 ___
 
 ## Hint
