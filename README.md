@@ -417,11 +417,15 @@ ___
 </details>
 
 <details>
-<summary> ba3e </summary>
+<summary> ba3e, ba3j </summary>
 <div markdown="1">
 
    <p align="left">
   <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/8f57c10f-14e9-42d6-9cee-6d918e3a0d19" alt="image" width="auto" height="100">
+   </p>
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/719de066-c7a1-4754-83f3-ae5c3baa4222" alt="image" width="auto" height="100">
    </p>
 
 </div>
