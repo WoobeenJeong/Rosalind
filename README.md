@@ -465,3 +465,14 @@ def stringmake(path)
 </div>
 </details>
 
+<details>
+<summary> ba5k </summary>
+<div markdown="1">
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/401b3755-294f-45b0-920c-a9c6050e7fc6" alt="image" width="auto" height="100">
+   </p>
+
+</div>
+</details>
+
