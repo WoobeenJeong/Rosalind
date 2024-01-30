@@ -401,6 +401,18 @@ PAM = Point Accepted Mutation
 </div>
 </details>
 
+### [BA7]
+<details>
+<summary>Adjacency matrix</summary>
+<div markdown="1">
+
+= 
+
+--> check [BA3] DFS
+
+</div>
+</details>
+
 ___
 
 ## Hint
