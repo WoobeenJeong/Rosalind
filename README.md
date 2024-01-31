@@ -270,11 +270,36 @@ def dfs(node):
 </div>
 </details>
 
+<details>
+<summary> In/Out-degree, Source/Sink </summary>
+<div markdown="1">
+= For direted graph(path/cycle even tree),  
+
+$Let \  G=(V,E), v \in V (v \ for\  nodes) \ \sum_{v \in V}{deg^- (v)} + \sum_{v \in V}{deg^+ (v)}=|A|$
+
+$If \ A=0, balanced \ directed \ graph$
+
+${deg^- (v)}$ = Indegree = Source : start point of matrix : inward edges < outward edges
+
+${deg^+ (v)}$ = Outdegree = Sink : end point of matrix : inward edges > outward edges
+
+
+</div>
+</details>
 
 ### [BA5]
 <details>
-<summary> mini Dynamic Programing (DP) problems </summary>
+<summary> Dynamic Programing (DP) problems </summary>
 <div markdown="1">
+by : Richard Bellman (1950s) 
+
+= Mathematical optimization method with recursive sub-problems
+
+Source : start (0,0)
+
+Sink : end (m,n)
+
+traceback (optimization) : Sink to Source
 
 1. Fibonacci Sequence
 2. Change making Problem
@@ -403,12 +428,61 @@ PAM = Point Accepted Mutation
 
 ### [BA7]
 <details>
-<summary>Adjacency matrix</summary>
+<summary>Tree, Adjacency matrix</summary>
 <div markdown="1">
 
-= 
+**Definition of "Tree"**
+1. graph without cycle (graph = node + edge --> check [BA3] Graph)
+2. leaf node (degree=1) : without any child nodes = external node = terminal node = outer node
+3. internal node (degree>1) : with any child nodes = internal node = inner node = inode
+4. if # of node > 2, each internal node have > 1 edges.
+5. total (n) nodes have (n-1) edge(s).   
+
+- unrooted tree : consist of leaf nodes(degree=1) and internal nodes(degree>1).
+- rooted tree : have root node(degree=2), so that makes leaf(degree=1), internal(degree>2).
+- simple tree : # of node > 2, 1 pair of leaf in each inner nodes(=parent node).
+
+
+**Adjacency matrix**
+
+= To indicate graph into matrix, pair of nodes(verticles) are adjacent or not.
+
+= If the graph is **undiredted**, = adjacency matrix is **symmetric**
 
 --> check [BA3] DFS
+
+</div>
+</details>
+
+<details>
+<summary>Additive/Fitted/Distance matrix</summary>
+<div markdown="1">
+
+
+
+</div>
+</details>
+
+
+<details>
+<summary>Limb length</summary>
+<div markdown="1">
+
+
+      A \       / E
+          C -- D  
+      B /       \ F
+
+$CE = [(AC+CE)+(BC+CE)-(AC+BC)]/2$
+
+$so, AC = AE - (AE+BE-AB)/2$
+
+in here, AC = limb length
+
+for A and B, is neighbor node
+
+**limb length**
+= distance between leaf node and parent node
 
 </div>
 </details>
