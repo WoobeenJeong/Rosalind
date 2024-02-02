@@ -487,6 +487,18 @@ for A and B, is neighbor node
 </div>
 </details>
 
+
+### [BA8]
+<details>
+<summary>clustering</summary>
+<div markdown="1">
+
+
+
+</div>
+</details>
+
+
 ___
 
 ## Hint
