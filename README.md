@@ -490,14 +490,32 @@ for A and B, is neighbor node
 
 ### [BA8]
 <details>
-<summary>clustering</summary>
+<summary>K-center cluster</summary>
 <div markdown="1">
 
+1. Maximal distance
+   - Farthest First Traversal
+   - $min\sum(data-center) \ and \ max\sum(center-center)$
+2. K-means based on "Center of gravity theorem"
+   - Squared Error Distortion
+   - $Distortion(Data,Centers) = (1/n) min \sum(Euclidian dist(Data, Centers))\times2$
 
 
 </div>
 </details>
 
+<details>
+<summary>K-means vs KNN cluster</summary>
+<div markdown="1">
+
+**K-means** : k refers **# of classes** (unsupervised)
+- clustering
+
+**KNN** : k refers **# of nearest neighbors** (supervised, class already selected) 
+- classifying, regression
+
+</div>
+</details>
 
 ___
 
