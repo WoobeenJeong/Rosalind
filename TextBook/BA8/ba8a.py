@@ -1,10 +1,9 @@
 # FarthestFirstTraversal(Data, k) 
 #  Centers ← the set consisting of a single randomly chosen point from Data
 #   while |Centers| < k
-#    DataPoint ← the point in Data maximizing d(DataPoint, Centers) 
-#    add DataPoint to Centers 
+#      DataPoint ← the point in Data maximizing d(DataPoint, Centers) 
+#      add DataPoint to Centers 
 #  return Centers 
-
 # d(DataPoint,Centers) = minall points x from Centersd(DataPoint, x).
 
 # k는 클러스터의 개수, m은 차원의 개수
