@@ -1,4 +1,8 @@
-
+### Soft k-means
+### random하게 초기값을 고르지만, 대신 초기값에 민감
+### 떄문에, rosalind 문제에서는 초기값을 random으로 구현하는 것보다,
+### 그냥 처음에 제시한 이들을 초기값으로 진행하면 답에 더 쉽게 근접
+### EM algorithm based, converge
 
 import numpy as np
 
