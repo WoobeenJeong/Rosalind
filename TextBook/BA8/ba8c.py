@@ -1,3 +1,7 @@
+### Converge를 하는 k-means clustering
+### lloyd algorithm
+### center잡고 -> cluster하고 -> 다시 center잡고 -> converge까지 반복
+
 import numpy as np
 
 def Euclidean(point1, point2):
