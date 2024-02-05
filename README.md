@@ -378,11 +378,17 @@ $H(x)=$
 <div markdown="1">
 
 
-BLOSUM = BLOcks SUbstitution Matrix
+BLOSUM = BLOcks SUbstitution Matrix ( for local align )
 
          The matrix built from blocks with less than r% of similarity
 
-PAM = Point Accepted Mutation
+         1. conservative sequence alignments without gap = BLOCK
+         
+         2. in BLOCK database, 20 a.a's 210 possible substitution rate (under the relative abundance of each a.a)
+
+         3. get log-odds score
+
+PAM = Point Accepted Mutation ( for global align )
 
       Relating the number of mutated amino acids per 100 A.A
 
@@ -441,7 +447,15 @@ PAM = Point Accepted Mutation
 - unrooted tree : consist of leaf nodes(degree=1) and internal nodes(degree>1).
 - rooted tree : have root node(degree=2), so that makes leaf(degree=1), internal(degree>2).
 - simple tree : # of node > 2, 1 pair of leaf in each inner nodes(=parent node).
+- weighted tree : difference between length of each edge (node to another node) is exist. 
 
+      most of weighted trees like :
+         0->1:1
+         1->2:5
+         2->3:4
+         (start node)->(end node):distance
+      means :
+         0 - 1 ----- 2 --- 3
 
 **Adjacency matrix**
 
@@ -458,8 +472,28 @@ PAM = Point Accepted Mutation
 <summary>Additive/Fitted/Distance matrix</summary>
 <div markdown="1">
 
+= To explain the characteristic of Tree as an matrix,
 
+- Additive matrix = Distance matrix = Additive distance matrix
 
+  = distance between leaves only
+
+      0   13   21   22         ==      0             2         -> distance of : 0           2    == 21
+      13   0   12   13                    \       /                               \       /
+      21   12   0   13                      ?  - ?                                  ? - ?
+      22   13   13   0                    /        \
+                                       1              3
+
+- Adjacency matrix
+
+  = distance beteween all posible nodes (if not, edge = 0)
+
+      0   0   0   0   11   0  ==         0            2       ->  distance of : 0           == 11
+      0   0   0   0   2   0                 \       /                             \
+      0   0   0   0   0   6                   4 - 5                                  4
+      0   0   0   0   0   7                 /       \ 
+      11   2   0   0   0   4              1            3
+      0   0   6   7   4   0
 </div>
 </details>
 
