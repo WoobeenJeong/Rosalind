@@ -484,7 +484,7 @@ PAM = Point Accepted Mutation ( for global align )
       22   13   13   0                    /        \
                                        1              3
 
-- Adjacency matrix
+- Adjacency matrix = Fitted matrix
 
   = distance beteween all posible nodes (if not, edge = 0)
 
@@ -554,8 +554,26 @@ for A and B, is neighbor node
 <details>
 <summary>Lloyd algorithm</summary>
 <div markdown="1">
+= Voronoi iteration (relaxation)
 
-=
+- E step (estimated):
+   1. Set “k” number of centers.
+   2. Create clusters from the closest points.
+  
+- M step (maximization):
+   1. Find the center of gravity of each cluster in E-step.
+   2. = Backtracking optimal solution
+
+- Repeat steps E-M.
+
+- Stop (=convergence): When the center no longer changes. (= the center stabilized)
+
+   = minimized squared error distortion
+
+   = global minimum
+
+* Disadvantage: Sensitive to initial value and "k" to be classified, clusters may differ from reality (biological interpretation (e.g. BIC))
+* Compensation: Random start must be performed multiple times
 
 </div>
 </details>
