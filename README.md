@@ -521,7 +521,6 @@ for A and B, is neighbor node
 </div>
 </details>
 
-
 ### [BA8]
 <details>
 <summary>K-center cluster</summary>
@@ -533,7 +532,6 @@ for A and B, is neighbor node
 2. K-means based on "Center of gravity theorem"
    - Squared Error Distortion
    - $Distortion(Data,Centers) = (1/n) min \sum(Euclidian dist(Data, Centers))\times2$
-
 
 </div>
 </details>
@@ -574,6 +572,17 @@ for A and B, is neighbor node
 
 * Disadvantage: Sensitive to initial value and "k" to be classified, clusters may differ from reality (biological interpretation (e.g. BIC))
 * Compensation: Random start must be performed multiple times
+
+</div>
+</details>
+
+
+### [BA10]
+<details>
+<summary>Hidden path</summary>
+<div markdown="1">
+
+=
 
 </div>
 </details>
