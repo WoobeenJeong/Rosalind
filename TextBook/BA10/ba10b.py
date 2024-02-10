@@ -1,4 +1,3 @@
-
 ### 이번엔 잘 생각해야 하는게, trans-emit matrix에서 계산해야 함 = 고로, trans prob를 구할 일은 없기 때문에 괜찮
 ### 저번 ba10a.py에서 구한건 trans prob를 구하는 것 / 이번엔 emit prob를 구하는 것
 
