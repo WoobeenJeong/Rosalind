@@ -587,6 +587,16 @@ for A and B, is neighbor node
 </div>
 </details>
 
+<details>
+<summary>Viterbi algorithm</summary>
+<div markdown="1">
+
+=
+
+</div>
+</details>
+
+
 ___
 
 ## Hint
