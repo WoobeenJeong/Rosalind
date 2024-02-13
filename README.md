@@ -287,6 +287,15 @@ ${deg^+ (v)}$ = Outdegree = Sink : end point of matrix : inward edges > outward 
 </div>
 </details>
 
+### [BA4]
+<details>
+<summary>ptn(?) </summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
 ### [BA5]
 <details>
 <summary> Dynamic Programing (DP) problems </summary>
