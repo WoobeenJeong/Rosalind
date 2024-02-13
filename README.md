@@ -1,5 +1,6 @@
 # Rosalind
 
+- Stronghold
 - Textbook Track
 
 ## Textbook Track 
