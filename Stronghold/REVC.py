@@ -6,7 +6,7 @@ def complement(dna):
     return dna[::-1]
 
 
-with open ('REVC.txt', 'r') as file:
+with open ('bioinfo2/rosalind_revc.txt', 'r') as file:
     dna = file.readline().strip()
 
 print(complement(dna))
