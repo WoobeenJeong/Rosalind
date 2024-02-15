@@ -1,6 +1,6 @@
 ### integer mass 를 바탕으로
 ### theoretical spectrum of a cyclic peptide
-### = 모든 가능한 cyclic subpeptide들의 mass를 나열 
+### 모든 가능한 cyclic subpeptide들의 mass를 나열 
 ### = cyclospetrum of a peptide
 ### 순서는 Daltons기준 오름차순으로 나열
 
