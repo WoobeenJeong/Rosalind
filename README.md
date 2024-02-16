@@ -672,6 +672,19 @@ def stringmake(path)
 </details>
 
 <details>
+<summary> ba4d </summary>
+<div markdown="1">
+
+= simple memoization training for preparing DP
+
+   <p align="left">
+  <img src="https://github.com/WoobeenJeong/Rosalind/assets/132027211/cfc453d7-e60b-42ca-8d2d-a50d89947de7" alt="image" width="auto" height="100">
+   </p>
+
+</div>
+</details>
+
+<details>
 <summary> ba5k </summary>
 <div markdown="1">
 
