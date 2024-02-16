@@ -11,7 +11,7 @@ integer_mass_table = { 'G': 57, 'A': 71, 'S': 87, 'P': 97, 'V': 99,
 
 for values in integer_mass_table.values():
     mass_only = list(integer_mass_table.values())
-mass_only = list(set(mass_only))
+mass_only = list(set(mass_only))                  # Leucine도 113, Isoleucine도 113이기 때문
 
 ###################################################
 ### DP - memoization (cashing) 활용
@@ -26,9 +26,9 @@ def findall_possible(mass):
         # print(cycles)
             
         count -= 1
-        while cycles[count] == 0:
-            count -= 1
-    # print(cycles)
+        while cycles[count] == 0:      # 이 while문이 없으면, 결과는 같지만
+            count -= 1                 # 작업을 2배 해야 됨
+    # print(cycles)                    # 만약에 1 Dalton이 존재하면 작업량 같음 (힌트)
 
     return cycles[0]
 
