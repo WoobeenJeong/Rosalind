@@ -2,7 +2,7 @@
 ### Cyclopeptide Sequencing
 ### Integer mass가 주어지고, 가능한 Cyclopeptide를 모두 출력하기
 ### 다행히 Integer table은 필요없는게, protein seq로 바꾸는 것은 아직 요구X
-### -> 하지만 쓰면 할 수 있음
+### ->하지만 쓰면 할 수 있음
 
 ############################################
 
