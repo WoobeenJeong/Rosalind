@@ -1,4 +1,4 @@
-### same as ba4a.py
+### ba4a.py 와 동일
 
 base = ['A','C','G','U']
 codon = [a+b+c for a in base for b in base for c in base]
