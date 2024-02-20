@@ -290,12 +290,51 @@ ${deg^+ (v)}$ = Outdegree = Sink : end point of matrix : inward edges > outward 
 
 ### [BA4]
 <details>
-<summary>ptn(?) </summary>
+<summary> Cyclic peptide from Spectrum </summary>
 <div markdown="1">
 
+= to predict peptide from mass spectrometer
+
+      def score( 'peptide', 'spectrum' ):
+         return matchinng score
+      
+      score = ('NEQL', [0, 99, 113, 114, 128, 227, 257, 370, 371, 484]) = 11
+      
+                           L   N   Q   E  LN  LE  NQ  EQ      QLN LNE EQL NEQ LNEQ  
+      ### NEQL =     0    113 114 128 129 227 242 242 257     355 356 370 371 484      (129, 242, 242 = missing masses) Theoritical 
+      ### spectrum = 0 99 113 114 128     227         257 299 355 356 370 371 484      (99, 299 = false masses) Experitmental
+      ### overlaps   1     2   3   4       5           6       7   8   9   10  11
+
+      ### spectrum based cyclic peptide:   N-E-Q-L         L-Q-E-N
+                                             E-Q-L-N         Q-E-N-L
+                                               Q-L-N-E         E-N-L-Q
+                                                 L-N-E-Q         N-L-Q-E
+</div>
+</details>
+
+
+<details>
+<summary> Integer mass </summary>
+<div markdown="1">
+   
+= The mass of an amino acid or another compound expressed as an integer.
+
+       {'C': 12.01, 'H': 1.008, 'O': 16.00, 'N': 14.01, 'S': 32.07}
+       
+       {'G': 'C2H3N1O1', 'A': 'C3H5N1O1', 'S': 'C3H5N1O2', 'P': 'C5H7N1O1', 'V': 'C5H9N1O1',
+        'T': 'C4H7N1O2', 'C': 'C3H5N1O1S1', 'I': 'C6H11N1O1', 'L': 'C6H11N1O1', 'N': 'C4H6N2O2',
+        'D': 'C4H5N1O3', 'K': 'C6H12N2O1', 'Q': 'C5H8N2O2', 'E': 'C5H7N1O3', 'M': 'C5H9N1O1S1',
+        'H': 'C6H7N3O1', 'F': 'C9H9N1O1', 'R': 'C6H12N4O1', 'Y': 'C9H9N1O2', 'W': 'C11H10N2O1'}
+
+      {'G': 57.05, 'A': 71.08, 'S': 87.08, 'P': 97.12, 'V': 99.13,     -- into ->   {'G': 57, 'A': 71, 'S': 87, 'P': 97, 'V': 99,
+       'T': 101.11, 'C': 103.15, 'I': 113.16, 'L': 113.16, 'N': 114.11,              'T': 101, 'C': 103, 'I': 113, 'L': 113, 'N': 114,
+       'D': 115.09, 'K': 128.18, 'Q': 128.13, 'E': 129.12, 'M': 131.20,              'D': 115, 'K': 128, 'Q': 128, 'E': 129, 'M': 131,
+       'H': 137.15, 'F': 147.17, 'R': 156.20, 'Y': 163.17, 'W': 186.21}              'H': 137, 'F': 147, 'R': 156, 'Y': 163, 'W': 186}
+      
 
 </div>
 </details>
+
 
 ### [BA5]
 <details>
