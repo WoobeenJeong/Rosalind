@@ -5,7 +5,7 @@
 
 ## Textbook Track 
 
-### [BA1]
+### [BA1, SUBS]
 <details>
 <summary>Hamming distance</summary>
 <div markdown="1">
@@ -32,6 +32,31 @@ Systematically checking all possible candidates for whether or not each candidat
 sliding window : n(string) - m(pattern) + 1
 
 complexity : O(mn)
+
+</div>
+</details>
+
+
+<details>
+<summary>KMP algorithm</summary>
+<div markdown="1">
+= Knuth Morris Pratt algorithm
+   (-> for motif finding : Exact match)
+
+= while matching sequences, by using **Failure Function(Pi array)**, count the mismatch prefix/suffix region as array(can find location as like an index) and skip that region
+
+            C   D          = mismatch    -> Pi array for [0 1 0 1]
+      AABA ACAA DAAB AABA               
+      AABA
+         a aBa
+           aAba
+            Aab a
+             aa Ba
+              a Aba
+                Aaba
+                 AABA
+                    AABA
+
 
 </div>
 </details>
