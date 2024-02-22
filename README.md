@@ -3,7 +3,7 @@
 - Stronghold
 - Textbook Track
 
-## Textbook Track 
+## Algorithm Explanation:
 
 ### [BA1, SUBS]
 <details>
