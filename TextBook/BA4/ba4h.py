@@ -1,7 +1,6 @@
 ### convolution of cyclic peptides spectrum
 ### 스펙트럼에서 가장 많이 나타나는 mass 차이를 찾아내서
 ### 가장 많이 나타나는 mass 차이 (multiplicity)를 가진 peptide를 찾아내는 문제
-
 ### 문제 예시도 그렇고, matrix로 만들어 풀면 시각화에 좋을것
 
 import numpy as np
