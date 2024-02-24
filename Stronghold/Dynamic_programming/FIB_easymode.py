@@ -15,6 +15,7 @@ def Fibonacci(number,kpairs):
 # print (Fibonacci(5,3))
 # == 1 / 1 / 1 + 1*3 / 1+1*3 + 1*3 / 1+1*3+1*3 + (1+1*3)*3 / ......
 
+##################################
 with open ("bioinfo2/rosalind_fib.txt", "r") as file:
     n, k = map(int, file.read().split())
     
